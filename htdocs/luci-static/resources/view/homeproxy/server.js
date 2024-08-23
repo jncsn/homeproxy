@@ -479,7 +479,8 @@ return view.extend({
 
 		o = s.option(form.Value, 'tls_sni', _('TLS SNI'),
 			_('Used to verify the hostname on the returned certificates unless insecure is given.'));
-		o.depends('tls', '1');
+		o.depends({'tls': '1', 'tls_reality': '0'});
+		o.depends({'tls': '1', 'tls_reality': null});
 		o.modalonly = true;
 
 		o = s.option(form.DynamicList, 'tls_alpn', _('TLS ALPN'),

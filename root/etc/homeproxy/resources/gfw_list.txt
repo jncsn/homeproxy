@@ -292,7 +292,6 @@ anonymouse.org
 anpopo.com
 answering-islam.org
 anthonycalzadilla.com
-anthropic.com
 anti1984.com
 antichristendom.com
 antiwave.net
@@ -428,7 +427,6 @@ axios.com
 axureformac.com
 azerbaycan.tv
 azerimix.com
-azirevpn.com
 azubu.tv
 azurewebsites.net
 b-ok.cc
@@ -713,7 +711,6 @@ bloomfortune.com
 blubrry.com
 blueangellive.com
 bmfinn.com
-bnbstatic.com
 bnews.co
 bnext.com.tw
 bnn.co
@@ -1078,7 +1075,6 @@ ck101.com
 cl.d0z.net
 clarionproject.org
 classicalguitarblog.net
-claude.ai
 clb.org.hk
 cldr.unicode.org
 cleansite.biz
@@ -1099,7 +1095,6 @@ club1069.com
 clubhouseapi.com
 clyp.it
 cmcn.org
-cmegroup.com
 cmi.org.tw
 cmp.hku.hk
 cms.gov
@@ -1270,6 +1265,7 @@ dalailama-archives.org
 dalailama.com
 dalailama.mn
 dalailama.ru
+dalailama.usc.edu
 dalailama80.org
 dalailamacenter.org
 dalailamafellows.org
@@ -2797,7 +2793,6 @@ im88.tw
 imageab.com
 imagefap.com
 imageflea.com
-imageglass.org
 images-gaytube.com
 images.comico.tw
 imageshack.us
@@ -2916,7 +2911,6 @@ iuksky.com
 ivacy.com
 iverycd.com
 ivpn.net
-iwara.tv
 ixquick.com
 ixxx.com
 iyouport.com
@@ -3183,7 +3177,6 @@ liangzhichuanmei.com
 lianyue.net
 liaowangxizang.net
 liberal.org.hk
-libertysculpturepark.com
 libertytimes.com.tw
 library.usc.cuhk.edu.hk
 libredd.it
@@ -4034,7 +4027,6 @@ percy.in
 perfect-privacy.com
 perfectgirls.net
 periscope.tv
-perplexity.ai
 persecutionblog.com
 persiankitty.com
 phapluan.org
@@ -4795,7 +4787,6 @@ storagenewsletter.com
 store.steampowered.com
 stories.google
 storify.com
-storj.io
 storm.mg
 stormmediagroup.com
 stoweboyd.com
@@ -5130,7 +5121,6 @@ tibetsupportgroup.org
 tibetswiss.ch
 tibettelegraph.com
 tibettimes.net
-tibettruth.com
 tibetwrites.org
 ticket.com.tw
 tigervpn.com
@@ -5479,7 +5469,6 @@ urlparser.com
 us.to
 usacn.com
 usaip.eu
-uscardforum.com
 uscnpm.org
 userapi.nytlog.com
 users.skynet.be
@@ -5857,7 +5846,6 @@ wqyd.org
 wrchina.org
 wretch.cc
 writer.zoho.com
-writesonic.com
 wsj.com
 wsj.net
 wsjhk.com

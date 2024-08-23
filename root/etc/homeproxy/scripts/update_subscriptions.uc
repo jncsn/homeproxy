@@ -453,15 +453,17 @@ function main() {
 	}
 
 	for (let url in subscription_urls) {
-		url = replace(url, /#.*$/, '');
 		const groupHash = calcStringMD5(url);
 		node_cache[groupHash] = {};
 
 		const res = wGET(url);
-		if (isEmpty(res)) {
+		if (!res) {
 			log(sprintf('Failed to fetch resources from %s.', url));
 			continue;
 		}
+
+		push(node_result, []);
+		const subindex = length(node_result) - 1;
 
 		let nodes;
 		try {
@@ -500,8 +502,7 @@ function main() {
 					config.packet_encoding = packet_encoding;
 
 				config.grouphash = groupHash;
-				push(node_result, []);
-				push(node_result[length(node_result)-1], config);
+				push(node_result[subindex], config);
 				node_cache[groupHash][confHash] = config;
 				node_cache[groupHash][nameHash] = config;
 
@@ -509,10 +510,7 @@ function main() {
 			}
 		}
 
-		if (count == 0)
-			log(sprintf('No valid node found in %s.', url));
-		else
-			log(sprintf('Successfully fetched %s nodes of total %s from %s.', count, length(nodes), url));
+		log(sprintf('Successfully fetched %s nodes of total %s from %s.', count, length(nodes), url));
 	}
 
 	if (isEmpty(node_result)) {
